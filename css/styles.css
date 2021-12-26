@@ -34,16 +34,19 @@ body{
 .image__img{
     display: block;
     width: 100%;
+    border-radius: 50px;
 }
 
 .image__img1{
     display: block;
     width: 100%;
+    border-radius: 50px;
 }
 
 .image__img2{
     display: block;
     width: 100%;
+    border-radius: 50px;
 }
 
 .image__overlay, .image__overlay--blur, .image__overlay--primary{
@@ -61,6 +64,7 @@ body{
     justify-content: center;
     opacity: 0;
     transition: opacity 0.25s;
+    border-radius: 50px;
 }
 
 .image__overlay--blur{
@@ -88,6 +92,7 @@ body{
 
 .image__overlay:hover{
     opacity: 1;
+    border-radius: 50px;
 }
 
 .image__overlay--blur:hover{
